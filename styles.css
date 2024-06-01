@@ -95,6 +95,9 @@ body {
 
 .contact-info__block--center {
     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
 }
 
 .contact-info__item {
@@ -305,4 +308,21 @@ footer {
     justify-content: center;
     margin-top: 1em;
     gap: 2em;
+}
+
+.interests-listing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.extra_info_links {
+    color: var(--primary-text-color);
+    font-weight: bolder;
+
+    text-decoration-color: var(--border-color);
+    text-decoration-line: underline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
