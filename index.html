@@ -3,11 +3,251 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    ― Hello World! &#x1F609;
+    <main>
+        <div class="resume">
+            <div class="container">
+                <div class="resume__block">
+                    <h1 class="contact-info__header">Guillermo L. Martos Venturini</h1>
+                    <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+
+                    <div class="contact_info_container fh">
+                        <div class="contact-info__block"></div>
+
+                        <div class="contact-info__block contact-info__block--center">
+                            <img class="contact-info__avatar" src="./assets/Gui.png" alt="Avatar" />
+                        </div>
+
+                        <div class="contact-info__block"></div>
+                    </div>
+                </div>
+                <a href="https://maps.app.goo.gl/dtoC42dr1oXc69pC9" target="_blank" rel="author"
+                    class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                        <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0
+                          192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
+                          13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
+                          80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                        </svg>
+                    </div>
+                    <span>Valencia, Spain</span>
+                </a>
+                <a href="https://www.linkedin.com/in/guillermomartosventurini/" target="_blank" rel="author"
+                    class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                        <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9
+                          480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4
+                          416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9
+                          96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5
+                          38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9
+                          27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5
+                          62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </div>
+                    <span>LinkedIn profile</span>
+                </a>
+                <a href="https://github.com/GuillermoMartos?tab=repositories" target="_blank" rel="author"
+                    class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path
+                                d="M320 192h17.1c22.1 38.3 63.5 64 110.9 64c11 0 21.8-1.4 32-4v4 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V339.2L280 448h56c17.7 0 32 14.3 32 32s-14.3 32-32 32H192c-53 0-96-43-96-96V192.5c0-16.1-12-29.8-28-31.8l-7.9-1c-17.5-2.2-30-18.2-27.8-35.7s18.2-30 35.7-27.8l7.9 1c48 6 84.1 46.8 84.1 95.3v85.3c34.4-51.7 93.2-85.8 160-85.8zm160 26.5v0c-10 3.5-20.8 5.5-32 5.5c-28.4 0-54-12.4-71.6-32h0c-3.7-4.1-7-8.5-9.9-13.2C357.3 164 352 146.6 352 128v0V32 12 10.7C352 4.8 356.7 .1 362.6 0h.2c3.3 0 6.4 1.6 8.4 4.2l0 .1L384 21.3l27.2 36.3L416 64h64l4.8-6.4L512 21.3 524.8 4.3l0-.1c2-2.6 5.1-4.2 8.4-4.2h.2C539.3 .1 544 4.8 544 10.7V12 32v96c0 17.3-4.6 33.6-12.6 47.6c-11.3 19.8-29.6 35.2-51.4 42.9zM432 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
+                        </svg>
+                    </div>
+                    <span>Github repositories</span>
+                </a>
+            </div>
+        </div>
+    </main>
+    <div class="container">
+        <div class="resume__block">
+            <div class="intro">
+                <div class="intro__icon-wrapper">
+                    <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                  24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                  26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                  48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                  64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0
+                  103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0
+                  48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
+                    </svg>
+                </div>
+                <p class="intro_text">I'm Guille, a software developer driven by innovation and
+                    problem-solving. Complete software architecture development is my passion. Soft skills
+                    through, to make an exceptional team player, and testing while develop to probe in facts
+                    solutions for the real world problems.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="resume__block">
+            <div class="skills">
+                <h3 class="skills__header">Skills</h3>
+                <p class="skills__text">Soft skills for Team collaboration</p>
+                <p class="skills__text">Resilience and fast learning</p>
+                <p class="skills__text">Structure thinking for scaling solutions</p>
+                <p class="skills__text">Frontend, Backend and some CI/CD knowledges</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="resume__block">
+
+            <div class="experiences">
+                <h3 class="experiences__header">Experiences</h3>
+                <div class="experiences-listing">
+
+
+                    <div class="experiences__company">
+                        <div class="experiences__company-header">
+                            <span class="experiences__company-header-durability">Jan 2020- June 2021</span>
+                            <h3 class="experiences__company-header-name"><a href="https://www.pluggy.ai/en"
+                                    target="_blank">Pluggy</a></h3>
+                        </div>
+
+                        <div class="experiences__company-project">
+                            <span class="experiences__company-project-role">Backend software developer</span>
+                            <h3 class="experiences__company-project-name">Pluggy</h3>
+                            <ul class="experiences__company-project-responsibilities">
+                                <li>Backend Architecture</li>
+                                <li>TDD development</li>
+                                <li>API Integration</li>
+                                <li>Code Maintenance</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experiences__company">
+                        <div class="experiences__company-header">
+                            <span class="experiences__company-header-durability">Jan 2022- Current</span>
+                            <h3 class="experiences__company-header-name"><a
+                                    href="https://compras-comunitarias-ag.vercel.app/" target="_blank">CoCo</a></h3>
+                        </div>
+
+                        <div class="experiences__company-project">
+                            <span class="experiences__company-project-role">Full-Stack Developer</span>
+                            <h3 class="experiences__company-project-name">Compras Comunitarias</h3>
+                            <ul class="experiences__company-project-responsibilities">
+                                <li>Backend Architecture</li>
+                                <li>Frontend Architecture</li>
+                                <li>API Integration</li>
+                                <li>Code Maintenance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="additional-info fv">
+            <h3 class="additional-info__education-header">Education</h3>
+            <div class="education-listing">
+
+
+                <div class="education-block">
+                    <div class="additional-info__education">
+                        <div class="additional-info__education-university">
+                            <span class="additional-info__education-university-durability"> 2024 </span>
+                            <h3 class="additional-info__education-university-speciality">Full-Stack Development Bootcamp
+                            </h3>
+                            <p class="additional-info__education-university-name">Binary Studio Academy</p>
+                        </div>
+                    </div>
+
+                    <div class="additional-info__languages">
+                        <h3 class="additional-info__languages-header">Languages</h3>
+                        <p class="additional-info__languages-item">English</p>
+                    </div>
+
+                </div>
+
+                <div class="education-block">
+
+                    <div class="additional-info__education">
+                        <div class="additional-info__education-university">
+                            <span class="additional-info__education-university-durability"> 2020 </span>
+                            <h3 class="additional-info__education-university-speciality">Full-Stack Development Bootcamp
+                            </h3>
+                            <p class="additional-info__education-university-name">Soy Henry Argentina</p>
+                        </div>
+                    </div>
+
+                    <div class="additional-info__languages">
+                        <h3 class="additional-info__languages-header">Languages</h3>
+                        <p class="additional-info__languages-item">English</p>
+                        <p class="additional-info__languages-item">Spanish</p>
+                    </div>
+                </div>
+
+                <div class="education-block">
+
+                    <div class="additional-info__education">
+                        <div class="additional-info__education-university">
+                            <span class="additional-info__education-university-durability"> 2019 </span>
+                            <h3 class="additional-info__education-university-speciality">Python Data Science Bootcamp
+                            </h3>
+                            <p class="additional-info__education-university-name">Technical University of Cordoba</p>
+                        </div>
+                    </div>
+
+                    <div class="additional-info__languages">
+                        <h3 class="additional-info__languages-header">Languages</h3>
+                        <p class="additional-info__languages-item">Spanish</p>
+                        <p class="additional-info__languages-item">English</p>
+                    </div>
+                </div>
+
+                <div class="education-block">
+
+                    <div class="additional-info__education">
+                        <div class="additional-info__education-university">
+                            <span class="additional-info__education-university-durability"> 2018 </span>
+                            <h3 class="additional-info__education-university-speciality">Bachelor in Philosophy
+                            </h3>
+                            <p class="additional-info__education-university-name">National University of Cordoba</p>
+                        </div>
+                    </div>
+
+                    <div class="additional-info__languages">
+                        <h3 class="additional-info__languages-header">Languages</h3>
+                        <p class="additional-info__languages-item">Spanish</p>
+                        <p class="additional-info__languages-item">Portugues</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/guillermomartosventurini/" target="_blank">
+
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 50 50">
+                    <path
+                        d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                    </path>
+                </svg>
+            </a>
+
+            <a href="https://github.com/GuillermoMartos" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 50 50">
+                    <path
+                        d="M17.791,46.836C18.502,46.53,19,45.823,19,45v-5.4c0-0.197,0.016-0.402,0.041-0.61C19.027,38.994,19.014,38.997,19,39 c0,0-3,0-3.6,0c-1.5,0-2.8-0.6-3.4-1.8c-0.7-1.3-1-3.5-2.8-4.7C8.9,32.3,9.1,32,9.7,32c0.6,0.1,1.9,0.9,2.7,2c0.9,1.1,1.8,2,3.4,2 c2.487,0,3.82-0.125,4.622-0.555C21.356,34.056,22.649,33,24,33v-0.025c-5.668-0.182-9.289-2.066-10.975-4.975 c-3.665,0.042-6.856,0.405-8.677,0.707c-0.058-0.327-0.108-0.656-0.151-0.987c1.797-0.296,4.843-0.647,8.345-0.714 c-0.112-0.276-0.209-0.559-0.291-0.849c-3.511-0.178-6.541-0.039-8.187,0.097c-0.02-0.332-0.047-0.663-0.051-0.999 c1.649-0.135,4.597-0.27,8.018-0.111c-0.079-0.5-0.13-1.011-0.13-1.543c0-1.7,0.6-3.5,1.7-5c-0.5-1.7-1.2-5.3,0.2-6.6 c2.7,0,4.6,1.3,5.5,2.1C21,13.4,22.9,13,25,13s4,0.4,5.6,1.1c0.9-0.8,2.8-2.1,5.5-2.1c1.5,1.4,0.7,5,0.2,6.6c1.1,1.5,1.7,3.2,1.6,5 c0,0.484-0.045,0.951-0.11,1.409c3.499-0.172,6.527-0.034,8.204,0.102c-0.002,0.337-0.033,0.666-0.051,0.999 c-1.671-0.138-4.775-0.28-8.359-0.089c-0.089,0.336-0.197,0.663-0.325,0.98c3.546,0.046,6.665,0.389,8.548,0.689 c-0.043,0.332-0.093,0.661-0.151,0.987c-1.912-0.306-5.171-0.664-8.879-0.682C35.112,30.873,31.557,32.75,26,32.969V33 c2.6,0,5,3.9,5,6.6V45c0,0.823,0.498,1.53,1.209,1.836C41.37,43.804,48,35.164,48,25C48,12.318,37.683,2,25,2S2,12.318,2,25 C2,35.164,8.63,43.804,17.791,46.836z">
+                    </path>
+                </svg>
+        </div>
+        </a>
+    </footer>
 </body>
 
 </html>
