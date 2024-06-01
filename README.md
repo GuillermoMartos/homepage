@@ -1,3 +1,4 @@
 # homepage
 My first personal website. Basically it is just a résumé.
-Initial README Commit
+[link to web see resume](https://guillermomartos.github.io/homepage/)
+
