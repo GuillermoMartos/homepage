@@ -241,8 +241,10 @@ body {
 }
 
 .education-listing {
+    justify-content: space-around;
     display: flex;
     gap: 3em;
+    flex-wrap: wrap;
 }
 
 .additional-info__education-header {
@@ -288,4 +290,19 @@ a {
 
 a:hover {
     cursor: pointer;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 3px solid #bf7300;
+    background-color: #ff9a00;
+    height: 5em;
+}
+
+.contact-icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+    gap: 2em;
 }
